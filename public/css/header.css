@@ -1,4 +1,42 @@
 header{
     background-color: var(--Amarillo);
+    padding: 20px 0;
     
+}
+header .logo,header .searchBar{
+margin: 0 20px;
+}
+header .searchBar i{
+    padding: 1px;
+    border: 1px solid var(--grisOscuro);
+    border-radius: 4px;
+    background-color: var(--grisClaro);
+    
+
+}
+header .logo img{
+    width: 45%;
+    
+}
+header p{
+    margin: 20px 0;
+    text-align: center;
+}
+   
+header .links ul{
+    margin: 0 0 20px;
+}
+header .links ul li i{
+    margin: 0px 3px;
+}
+header .burger{
+    text-align: center;
+}
+header .burger i{
+    
+    background-color: var(--Celeste);
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: var(--titulares);
 }
