@@ -1,0 +1,46 @@
+main{
+    padding: 20px 0;
+    margin: 0 auto ;
+    width: 90%;
+
+}
+main .banner{
+    display:none;
+}
+main section{
+    padding: 20px 0;
+}
+main section h2{
+    font-size: var(--titulares);
+    color: var(--grisOscuro);
+}
+main section article{
+    margin: 10px 0;
+    background-color: white;
+}
+main section article img{
+    width: 95%;
+}
+main section article .precio{
+ font-size:var(--precios) ;
+}
+main section article .descuento{
+    color: var(--Verde);
+}
+
+main section article .contenedor{
+    border-top: 1px solid var(--grisClaro);
+    padding: 15px;
+}
+main section article .camion i{
+    padding: 10px;
+    color: var(--Verde);
+    border: 1px solid var(--Verde);
+    border-radius: 50%;
+    font-size: var(--cuerpoDeTexto);
+}
+main section article h4{
+    margin-top: 20px;
+    color: var(--grisOscuro);
+    font-size: var(--descuentosYdescripciones);
+}
