@@ -1,20 +1,20 @@
-.home main{
+main{
     width: 90%;
-    margin: 0;
+    margin: 0 auto;
   }
-.home main .banner{
+  main .banner{
+      display: none;
+  }
+  main section article img{
       width: 100%;
   }
-.home main section article img{
-      width: 100%;
-  }
-.home main section article .contenedor{
+  main section article .contenedor{
      border-top: 1px solid var(--colorGrisClaro);
      padding: 15px;
      
   
   }
-.home main section article .camion i{
+  main section article .camion i{
       font-size: 12px;
       color: var(--colorVerde);
       padding: 10px;
@@ -22,36 +22,36 @@
       border: 1px solid var(--colorVerde);
      
   }
-  .home main section article{
+  main section article{
       margin: 10px 0;
       background-color: white;
   }
-   .home main section h2{
+   main section h2{
       font-size: 24px;
       font-family: var(--FuentePrincipal);
       color: var(--colorGrisOscuro);
   
   }
-  .home main section article{
+  main section article{
       margin: 10px 0;
   }
-  .home main section .producto{
+  main section .producto{
       width: 100%;
   }
-  .home main section article .precio{
+  main section article .precio{
   font-size: 18px;
   font-family: var(--FuentePrincipal);
   }
-  .home main section article .camion,.home main section article .descuento{
+  main section article .camion,main section article .descuento{
       color: var(--colorVerde);
       /* font-size: 16px;
       font-family: var(--FuentePrincipal); */
   }
-  .home main p.descripcion,.home main p.descuento{
+  main p.descripcion,main p.descuento{
       font-size: 16px;
       font-family: var(--FuentePrincipal);
   }
-  .home main section article h4{
+  main section article h4{
       display:none;
       margin-top: 20px;
       color: var(--colorGrisOscuro);
@@ -60,11 +60,11 @@
   
   /* Tablet */
   @media (min-width:461px){
-      .home main section article{
+      main section article{
           box-shadow: 0px 0px 10px var(--colorGrisOscuro);
       }
   
-      .home main section article h4{
+      main section article h4{
           display:block;
       }
       
