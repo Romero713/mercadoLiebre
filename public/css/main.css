@@ -43,7 +43,17 @@ main{
       border-radius:50%;
       border: 1px solid var(--colorVerde);
       color: var(--colorVerde);
-
+     /*  display: block;
+      font-size: 16 px;
+      padding: 5 px ;
+      width: 30 px ;
+      height: 30 px ;
+      border: 1 px solid #39b54a ;
+      background-color: #FFF ;
+      border-radius: 50%;
+      position: absolute;
+      right: 20 px;
+      top: -15 px */
   }
   main section article{
       margin: 10px 0;
@@ -69,7 +79,8 @@ main{
   }
   main section article .camion,main section article .descuento{
       color: var(--colorVerde);
-      
+      /* font-size: 16px;
+      font-family: var(--FuentePrincipal); */
   }
   main p.descripcion,main p.descuento{
       font-size: 16px;
@@ -133,13 +144,13 @@ main{
       }
       main .banner img{
       width: 100%;
-     
+     /*  box-sizing: border-box; */
       margin: 0;
       padding: 0;
       }
       main section article .contenedor{
           display: flex;
-          
+          /* flex-wrap: wrap; */
           flex-direction: row;
           justify-content: space-between
         }
@@ -191,13 +202,13 @@ main{
       }
       main .banner img{
       width: 100%;
-     
+     /*  box-sizing: border-box; */
       margin: 0;
       padding: 0;
       }
       main section article .contenedor{
           display: flex;
-          
+          /* flex-wrap: wrap; */
           flex-direction: row;
           justify-content: space-between
         }
@@ -205,6 +216,6 @@ main{
           flex-direction: column;
           flex-grow: 1;
       }
-      
-}
-}
+    }
+  }    
+  

@@ -1,9 +1,12 @@
-@import url(general.css);
-@import url(header.css);
-@import url(main.css);
-@import url(footer.css);
-@import url(variables.css);
-
+@import './normalize.css';
+@import './general.css';
+@import './variables.css';
+@import './index.css';
+@import './header.css';
+@import './main.css';
+@import './footer.css';
+@import './register.css';
+@import './login.css'
 
 
 /* git checkout -b nombre_de_la_rama // crea y nos posiciona en la nueva rama.

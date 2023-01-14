@@ -21,7 +21,7 @@
 }
 
 .register  .container input{
-    padding: 4px;/* permite agrandar o achicar a gusto la barra para colocar el nombre */
+    padding: 4px;
     margin-top: 4px;
     border-width: 1px;
     border-radius: 3px;

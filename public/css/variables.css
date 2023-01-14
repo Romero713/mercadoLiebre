@@ -1,22 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https: //fonts.googleapis.com/css2? family= Open+Sans:wght@300;400;600 &familia= Roboto:peso@300;400;500 & display=swap');
 
-:root {
-    /* fuente */
-    --fuentePrincipal:'Roboto', sans-serif;
-    
-
-    /* tamaños de texto */
-    --cuerpoDeTexto: 12px;
-    --titulares: 24px;
-    --precios: 18px;
-    --descuentosYdescripciones: 16px;
-   
+:root{
+    /* Fuentes */
+    --FuentePrincipal:'Roboto',sans-serif;
+    --FuenteSecundaria:'Open Sans',sans-serif;
     /* colores */
-    --Amarillo: #EAC926;
-    --Azul: #03264C;
-    --Celeste: #1259c3;
-    --grisOscuro: #666;
-    --grisClaro: #ebebeb;
-    --Verde: #39b54a;
-
+    --colorAmarillo: #EAC926;
+    --colorAzul: #03264C;
+    --colorCeleste: #1259c3;
+    --colorGrisOscuro: #666;
+    --colorGrisClaro: #ebebeb;
+    --colorVerde: #39b54a;
+   
 }
