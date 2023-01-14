@@ -1,42 +1,69 @@
-header{
-    background-color: var(--Amarillo);
+hheader{
+    background-color: var(--colorAmarillo);
     padding: 20px 0;
-    
 }
 header .logo,header .searchBar{
-margin: 0 20px;
-}
-header .searchBar i{
-    padding: 1px;
-    border: 1px solid var(--grisOscuro);
-    border-radius: 4px;
-    background-color: var(--grisClaro);
-    
-
+    margin: 0px 20px ;
 }
 header .logo img{
-    width: 45%;
-    
+    width: 50%;
 }
-header p{
-    margin: 20px 0;
+header .searchBar{
+    margin-top: 20px;
+} 
+header .searchBar i{
+    padding: 1px;
+    background-color:white; 
+    border: 1px solid var(--colorGrisOscuro);
+    border-radius: 4px; 
+} 
+header  p{
+    margin: 24px 0;
     text-align: center;
 }
-   
-header .links ul{
+header nav{
+    display: none;
+}
+header ul{
     margin: 0 0 20px;
+    font-family: var(--FuentePrincipal);
+    text-align: left;
+    font-size: 12px;
 }
-header .links ul li i{
-    margin: 0px 3px;
-}
-header .burger{
+header .menu{
     text-align: center;
-}
-header .burger i{
     
-    background-color: var(--Celeste);
+}
+header .menu i{
+    background-color: var(--colorCeleste);
     color: white;
     padding: 10px;
     border-radius: 6px;
-    font-size: var(--titulares);
+    font-size: 16px;
+}
+
+header p{
+    text-align: center;
+    font-size: 12px;
+    font-family: var(--FuentePrincipal);
+}
+
+/* Tablet */
+@media (min-width:461px){
+    header nav{
+        display: block;
+    }
+    header .menu{
+        display: none;
+    }
+
+    main section article h4{
+        display:block;
+    }
+    
+}
+
+/* Desktop */
+@media (min-width:769px){
+
 }
